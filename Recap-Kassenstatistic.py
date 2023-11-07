@@ -14,7 +14,7 @@ def einlesen_und_konvertieren(datei_name):
 
 # Dictionäre verwenden, um die Strukturierten Arrays basierend auf Filialnamen zu speichern
 filialen = {}
-verzeichnis = "dateien/"
+verzeichnis = "dateien/kasse"
 
 # Durchsuchen Sie das Verzeichnis nach Dateien
 for datei_name in os.listdir(verzeichnis):
